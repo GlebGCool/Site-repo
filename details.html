@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали проекта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="/images/gato.gif" id="logo-image" alt="Логотип" width="50" height="50">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><button id="theme-toggle">Сменить тему</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="container details-page">
+        <button onclick="window.location.href='projects.html';" id="back-to-projects" class="back-link">← Назад к списку проектов</button>
+        
+        <h1>Remote Admin</h1>
+        <img src="/images/1.png" alt="Скриншот проекта" class="detail-img">
+        
+        <div class="detail-content">
+            <h3>Цель проекта</h3>
+            <p>Поработать с сетями через C#</p>
+            
+            <h3>Стек технологий</h3>
+            <p>C#, Sockets, SQLite</p>
+            
+            <h3>Суть и функционал</h3>
+            <p>Ну короче есть команды вот основное<br>
+                msg - отправить текст на экран.<br>
+                lock - заблокировать компьютер.<br>
+                status - узнать время неактивности ПК.<br>
+                rb / sd - перезагрузка / выключение.<br>
+                卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐卐<br>
+                Доп функционал<br>
+                close -  прервать связь с определённым клиентом.<br>
+                show - показать окно программы для определённого клиента.<br>
+                hide - скрыть окно программы для определённого клиента.<br>
+                lscli - получить список подключённых клиентов.<br>
+                help - получить список команд.
+            </p>
+            <button onclick="window.location.href='https://github.com/GlebGCool/RemoteAdmin-Lite';" id="back-to-projects" class="back-link">Страница репозитория проекта</button>
+        </div>
+    </article>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
